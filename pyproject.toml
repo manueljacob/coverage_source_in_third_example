@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_package"
+
+[tool.coverage.run]
+source_pkgs = ["example_package"]
+source = ["./"]
